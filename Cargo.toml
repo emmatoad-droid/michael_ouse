@@ -1,0 +1,13 @@
+[package]
+name = "michael_ouse"
+version = "0.1.0"
+edition = "2021"
+authors = ["emmatoad-droid <you@example.com>"]
+description = "Michael Ouse — a Rust project in miniature"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/emmatoad-droid/michael_ouse"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
